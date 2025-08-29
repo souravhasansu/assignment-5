@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Service Directory</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="design.js" defer></script>
+</head>
+<body>
+        <script src="design.js" defer></script>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-logo-group">
+                <img src="/assets/logo.png" alt="Emergency Service Logo" class="navbar-logo">
+                <a class="navbar-title" href="#">Emergency Service</a>
+            </div>
+
+            <div class="navbar-actions">
+                <div class="navbar-badge red">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                    <span>0</span>
+                </div>
+                <div class="navbar-badge yellow">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 14a6 6 0 110-12 6 6 0 010 12zM9 9h2v4H9V9zm-1-4h4l-.5 2h-3L8 5z" />
+                    </svg>
+                    <span>100</span>
+                </div>
+                <button class="navbar-button">
+                    2 Copy
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-background">
+        <div class="container">
+            <div class="hero-logo-wrapper">
+                <img src="/assets/logo-dark.png" alt="Bangladesh Logo" class="hero-logo">
+            </div>
+
+            <h1 class="hero-title">
+                Emergency Service Directory
+            </h1>
+
+            <p class="hero-slogan">
+                Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh
+            </p>
+        </div>
+    </section>
+
+    <main class="main-section">
+        <div class="card-section">
+            <div class="card" data-service-id="national-emergency">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/emergency.png" alt="National Emergency Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">জাতীয় জরুরি সেবা</h3>
+                    <p class="card-subtitle">National Emergency</p>
+                </div>
+                <p class="card-hotline">999</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-success">সর্বজনীন</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="police">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/police.png" alt="Police Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">পুলিশ</h3>
+                    <p class="card-subtitle">Police</p>
+                </div>
+                <p class="card-hotline">999</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-info">পুলিশ</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="fire-service">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/fire-service.png" alt="Fire Service Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">ফায়ার সার্ভিস</h3>
+                    <p class="card-subtitle">Fire Service</p>
+                </div>
+                <p class="card-hotline">999</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-error">ফায়ার</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="ambulance">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/ambulance.png" alt="Ambulance Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">অ্যাম্বুলেন্স</h3>
+                    <p class="card-subtitle">Ambulance</p>
+                </div>
+                <p class="card-hotline">1994-999999</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-warning">স্বাস্থ্য</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="women-child-helpline">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/emergency.png" alt="Women Helpline Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">নারী ও শিশু সহায়তা</h3>
+                    <p class="card-subtitle">Women & Child Helpline</p>
+                </div>
+                <p class="card-hotline">109</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-accent">সহায়তা</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="anti-corruption">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/emergency.png" alt="Anti-Corruption Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">দুর্নীতি</h3>
+                    <p class="card-subtitle">Anti-Corruption</p>
+                </div>
+                <p class="card-hotline">106</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-success">সতর্ক</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="electricity-outage">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/emergency.png" alt="Electricity Outage Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">বিদ্যুৎ বিভ্রাট</h3>
+                    <p class="card-subtitle">Electricity Outage</p>
+                </div>
+                <p class="card-hotline">16216</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-warning">বিদ্যুৎ</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="brac">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/brac.png" alt="Brac Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">ব্রাক</h3>
+                    <p class="card-subtitle">Brac</p>
+                </div>
+                <p class="card-hotline">16445</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-success">এনজিও</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+
+            <div class="card" data-service-id="bd-railway">
+                <button class="card-favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <div class="card-icon-wrapper">
+                    <img src="/assets/Bangladesh-Railway.png" alt="Bangladesh Railway Icon" class="card-icon">
+                </div>
+                <div class="card-title-group">
+                    <h3 class="card-title">বাংলাদেশ রেলওয়ে</h3>
+                    <p class="card-subtitle">Bangladesh Railway</p>
+                </div>
+                <p class="card-hotline">163</p>
+                <div class="card-badge-wrapper">
+                    <span class="card-category-badge badge-info">পরিবহন</span>
+                </div>
+                <div class="card-buttons">
+                    <button class="card-button ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m-4 4v7m-4 0h-4M4 7h16" />
+                        </svg>
+                        Copy
+                    </button>
+                    <button class="card-button success">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9l2.5-2.5 1.5 1.5L14 10l-2 3 3 2 2-2 1.5 1.5L17 17l.684.948A1 1 0 0117.72 21H5a2 2 0 01-2-2V5z" />
+                        </svg>
+                        Call
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="history-section">
+            <div class="history-header">
+                <div class="history-title-group">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h2 class="history-title">Call History</h2>
+                </div>
+                <button class="clear-history-button">Clear</button>
+            </div>
+            <ul id="call-history-list">
+                </ul>
+        </div>
+    </main>
+</body>
+</html>
